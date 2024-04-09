@@ -1,0 +1,6 @@
+source 'https://github.com/CocoaPods/Specs.git'
+target 'Practica_11' do
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+end
+
