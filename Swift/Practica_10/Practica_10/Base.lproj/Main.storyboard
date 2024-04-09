@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Clima-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Practica_10" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nb8-vK-tmX">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Clima" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                                <rect key="frame" x="162.5" y="409.5" width="89" height="77"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
+                                <rect key="frame" x="207" y="359.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa la ciudad" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fP1-WT-DXD">
+                                <rect key="frame" x="138" y="507" width="138" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsw-NX-7Or">
+                                <rect key="frame" x="173.5" y="572" width="67" height="30"/>
+                                <state key="normal" title="Consultar"/>
+                                <connections>
+                                    <action selector="consultarClima:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Gu2-sm-dH0"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WGd-p1-txd">
+                                <rect key="frame" x="87" y="231" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Nb8-vK-tmX" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="2Q2-rC-ouA"/>
+                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
+                            <constraint firstItem="fP1-WT-DXD" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" id="8ij-tm-fNX"/>
+                            <constraint firstItem="fP1-WT-DXD" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="20.5" id="Adz-wy-Psq"/>
+                            <constraint firstItem="Nb8-vK-tmX" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="QkV-cb-c00"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="Qsw-NX-7Or" secondAttribute="bottom" constant="211" id="XxX-CI-QoB"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="Nb8-vK-tmX" secondAttribute="bottom" id="boG-nO-YPN"/>
+                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
+                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="Qsw-NX-7Or" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" id="gxu-JP-cA5"/>
+                            <constraint firstItem="Qsw-NX-7Or" firstAttribute="top" secondItem="fP1-WT-DXD" secondAttribute="bottom" constant="31" id="lqI-iM-NsI"/>
+                            <constraint firstItem="Nb8-vK-tmX" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="odT-MN-zBL"/>
+                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="top" secondItem="A5M-7J-77L" secondAttribute="bottom" constant="50" id="pz2-WI-oYp"/>
+                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="315.5" id="vIj-sb-qfm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Clima" image="cloud.sun.rain" catalog="system" selectedImage="cloud.sun.rain" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="back" destination="Nb8-vK-tmX" id="q5p-hd-oFj"/>
+                        <outlet property="descp" destination="KQZ-1w-vlD" id="jXE-uG-woL"/>
+                        <outlet property="icono" destination="WGd-p1-txd" id="pDS-Xy-he8"/>
+                        <outlet property="nombreCiudad" destination="fP1-WT-DXD" id="lk7-g5-CZb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.27536231884062" y="-320.08928571428572"/>
+        </scene>
+        <!--Temperatura-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Practica_10" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="land.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qiW-wJ-YMb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Temperatura" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Jb9-y8-FCn">
+                                <rect key="frame" x="110" y="407" width="194" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkR-hP-J3B">
+                                <rect key="frame" x="207" y="357" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa la ciudad" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6tz-ZN-iQz">
+                                <rect key="frame" x="138" y="470.5" width="138" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="consultaTemp:" destination="8rJ-Kc-sve" eventType="editingDidEnd" id="5gj-Ot-1aV"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opt-Q0-hhz">
+                                <rect key="frame" x="173.5" y="535.5" width="67" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Consultar"/>
+                                <connections>
+                                    <action selector="consultaTemp:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="5gp-kA-PMB"/>
+                                    <action selector="consultarClima:" destination="9pv-A4-QxB" eventType="touchUpInside" id="jdz-Ex-Ujq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6tz-ZN-iQz" firstAttribute="top" secondItem="Jb9-y8-FCn" secondAttribute="bottom" constant="20.5" id="14v-Ux-VtP"/>
+                            <constraint firstItem="Opt-Q0-hhz" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" id="2rs-al-KJ9"/>
+                            <constraint firstItem="qiW-wJ-YMb" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="51Z-pz-cg2"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="qiW-wJ-YMb" secondAttribute="bottom" id="5CG-md-OtC"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="Opt-Q0-hhz" secondAttribute="bottom" constant="247.5" id="Kqh-aA-lLD"/>
+                            <constraint firstItem="Jb9-y8-FCn" firstAttribute="centerY" secondItem="O1u-W8-tvY" secondAttribute="centerY" id="N7t-ga-R9v"/>
+                            <constraint firstItem="Jb9-y8-FCn" firstAttribute="top" secondItem="pkR-hP-J3B" secondAttribute="bottom" constant="50" id="NHL-m2-iv0"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="qiW-wJ-YMb" secondAttribute="trailing" id="RUg-cS-r9D"/>
+                            <constraint firstItem="pkR-hP-J3B" firstAttribute="centerX" secondItem="Jb9-y8-FCn" secondAttribute="centerX" id="RUs-Ah-bnt"/>
+                            <constraint firstItem="qiW-wJ-YMb" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="SUp-Up-RwR"/>
+                            <constraint firstItem="6tz-ZN-iQz" firstAttribute="firstBaseline" secondItem="Jb9-y8-FCn" secondAttribute="baseline" constant="24" symbolType="layoutAnchor" id="Ymp-e0-OmB"/>
+                            <constraint firstItem="6tz-ZN-iQz" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" id="fxf-bI-sdT"/>
+                            <constraint firstItem="Jb9-y8-FCn" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" id="ydC-K5-w42"/>
+                            <constraint firstItem="Opt-Q0-hhz" firstAttribute="top" secondItem="6tz-ZN-iQz" secondAttribute="bottom" constant="31" id="zqm-XP-A1B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Temperatura" image="sun.min" catalog="system" selectedImage="sun.min" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="tem" destination="Jb9-y8-FCn" id="K5U-SV-QVO"/>
+                        <outlet property="temperatura" destination="6tz-ZN-iQz" id="oqz-g6-kJT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloud.sun.rain" catalog="system" width="64" height="58"/>
+        <image name="land.jpg" width="1080" height="1920"/>
+        <image name="sun.min" catalog="system" width="64" height="60"/>
+    </resources>
+</document>
