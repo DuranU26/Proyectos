@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A116CAAC2989D7F500CBFE92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A116CAAB2989D7F500CBFE92 /* AppDelegate.swift */; };
+		A116CAAE2989D7F500CBFE92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A116CAAD2989D7F500CBFE92 /* SceneDelegate.swift */; };
+		A116CAB02989D7F500CBFE92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A116CAAF2989D7F500CBFE92 /* ViewController.swift */; };
+		A116CAB32989D7F600CBFE92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A116CAB12989D7F600CBFE92 /* Main.storyboard */; };
+		A116CAB52989D82700CBFE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A116CAB42989D82700CBFE92 /* Assets.xcassets */; };
+		A116CAB82989D82700CBFE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A116CAB62989D82700CBFE92 /* LaunchScreen.storyboard */; };
+		A116CAC32989D82700CBFE92 /* CaballeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A116CAC22989D82700CBFE92 /* CaballeroTests.swift */; };
+		A116CACE2989D8E100CBFE92 /* caballero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A116CACD2989D8E100CBFE92 /* caballero.swift */; };
+		A116CAD02989E10D00CBFE92 /* mu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A116CACF2989E10D00CBFE92 /* mu.jpeg */; };
+		A116CAD82989E80300CBFE92 /* mu-sin-armadura.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A116CAD72989E80300CBFE92 /* mu-sin-armadura.jpeg */; };
+		A116CADB2989EDA600CBFE92 /* seiya-sin-armadura.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A116CAD92989EDA600CBFE92 /* seiya-sin-armadura.jpeg */; };
+		A116CADC2989EDA600CBFE92 /* seiya.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A116CADA2989EDA600CBFE92 /* seiya.jpeg */; };
+		A116CADF2989EE4B00CBFE92 /* hyoga.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A116CADD2989EE4B00CBFE92 /* hyoga.jpeg */; };
+		A116CAE02989EE4B00CBFE92 /* hyoga-sin-armadura.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A116CADE2989EE4B00CBFE92 /* hyoga-sin-armadura.jpeg */; };
+		A116CAE32989EEC600CBFE92 /* camus-sin-armadura.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A116CAE12989EEC600CBFE92 /* camus-sin-armadura.jpeg */; };
+		A116CAE42989EEC600CBFE92 /* camus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A116CAE22989EEC600CBFE92 /* camus.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A116CABF2989D82700CBFE92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A116CAA02989D7F500CBFE92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A116CAA72989D7F500CBFE92;
+			remoteInfo = Caballero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A116CAA82989D7F500CBFE92 /* Caballero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caballero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A116CAAB2989D7F500CBFE92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A116CAAD2989D7F500CBFE92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A116CAAF2989D7F500CBFE92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A116CAB22989D7F600CBFE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A116CAB42989D82700CBFE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A116CAB72989D82700CBFE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A116CAB92989D82700CBFE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A116CABE2989D82700CBFE92 /* CaballeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaballeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A116CAC22989D82700CBFE92 /* CaballeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaballeroTests.swift; sourceTree = "<group>"; };
+		A116CAC42989D82800CBFE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A116CACD2989D8E100CBFE92 /* caballero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caballero.swift; sourceTree = "<group>"; };
+		A116CACF2989E10D00CBFE92 /* mu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mu.jpeg; sourceTree = "<group>"; };
+		A116CAD72989E80300CBFE92 /* mu-sin-armadura.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mu-sin-armadura.jpeg"; sourceTree = "<group>"; };
+		A116CAD92989EDA600CBFE92 /* seiya-sin-armadura.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "seiya-sin-armadura.jpeg"; sourceTree = "<group>"; };
+		A116CADA2989EDA600CBFE92 /* seiya.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seiya.jpeg; sourceTree = "<group>"; };
+		A116CADD2989EE4B00CBFE92 /* hyoga.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hyoga.jpeg; sourceTree = "<group>"; };
+		A116CADE2989EE4B00CBFE92 /* hyoga-sin-armadura.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hyoga-sin-armadura.jpeg"; sourceTree = "<group>"; };
+		A116CAE12989EEC600CBFE92 /* camus-sin-armadura.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "camus-sin-armadura.jpeg"; sourceTree = "<group>"; };
+		A116CAE22989EEC600CBFE92 /* camus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camus.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A116CAA52989D7F500CBFE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A116CABB2989D82700CBFE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A116CA9F2989D7F500CBFE92 = {
+			isa = PBXGroup;
+			children = (
+				A116CAAA2989D7F500CBFE92 /* Caballero */,
+				A116CAC12989D82700CBFE92 /* CaballeroTests */,
+				A116CAA92989D7F500CBFE92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A116CAA92989D7F500CBFE92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A116CAA82989D7F500CBFE92 /* Caballero.app */,
+				A116CABE2989D82700CBFE92 /* CaballeroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A116CAAA2989D7F500CBFE92 /* Caballero */ = {
+			isa = PBXGroup;
+			children = (
+				A116CAAB2989D7F500CBFE92 /* AppDelegate.swift */,
+				A116CAAD2989D7F500CBFE92 /* SceneDelegate.swift */,
+				A116CAAF2989D7F500CBFE92 /* ViewController.swift */,
+				A116CAB12989D7F600CBFE92 /* Main.storyboard */,
+				A116CAB42989D82700CBFE92 /* Assets.xcassets */,
+				A116CAB62989D82700CBFE92 /* LaunchScreen.storyboard */,
+				A116CAB92989D82700CBFE92 /* Info.plist */,
+				A116CAD72989E80300CBFE92 /* mu-sin-armadura.jpeg */,
+				A116CACD2989D8E100CBFE92 /* caballero.swift */,
+				A116CADE2989EE4B00CBFE92 /* hyoga-sin-armadura.jpeg */,
+				A116CAE12989EEC600CBFE92 /* camus-sin-armadura.jpeg */,
+				A116CAE22989EEC600CBFE92 /* camus.jpeg */,
+				A116CADD2989EE4B00CBFE92 /* hyoga.jpeg */,
+				A116CAD92989EDA600CBFE92 /* seiya-sin-armadura.jpeg */,
+				A116CADA2989EDA600CBFE92 /* seiya.jpeg */,
+				A116CACF2989E10D00CBFE92 /* mu.jpeg */,
+			);
+			path = Caballero;
+			sourceTree = "<group>";
+		};
+		A116CAC12989D82700CBFE92 /* CaballeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				A116CAC22989D82700CBFE92 /* CaballeroTests.swift */,
+				A116CAC42989D82800CBFE92 /* Info.plist */,
+			);
+			path = CaballeroTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A116CAA72989D7F500CBFE92 /* Caballero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A116CAC72989D82800CBFE92 /* Build configuration list for PBXNativeTarget "Caballero" */;
+			buildPhases = (
+				A116CAA42989D7F500CBFE92 /* Sources */,
+				A116CAA52989D7F500CBFE92 /* Frameworks */,
+				A116CAA62989D7F500CBFE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caballero;
+			productName = Caballero;
+			productReference = A116CAA82989D7F500CBFE92 /* Caballero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A116CABD2989D82700CBFE92 /* CaballeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A116CACA2989D82800CBFE92 /* Build configuration list for PBXNativeTarget "CaballeroTests" */;
+			buildPhases = (
+				A116CABA2989D82700CBFE92 /* Sources */,
+				A116CABB2989D82700CBFE92 /* Frameworks */,
+				A116CABC2989D82700CBFE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A116CAC02989D82700CBFE92 /* PBXTargetDependency */,
+			);
+			name = CaballeroTests;
+			productName = CaballeroTests;
+			productReference = A116CABE2989D82700CBFE92 /* CaballeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A116CAA02989D7F500CBFE92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = personal;
+				TargetAttributes = {
+					A116CAA72989D7F500CBFE92 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					A116CABD2989D82700CBFE92 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = A116CAA72989D7F500CBFE92;
+					};
+				};
+			};
+			buildConfigurationList = A116CAA32989D7F500CBFE92 /* Build configuration list for PBXProject "Caballero" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A116CA9F2989D7F500CBFE92;
+			productRefGroup = A116CAA92989D7F500CBFE92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A116CAA72989D7F500CBFE92 /* Caballero */,
+				A116CABD2989D82700CBFE92 /* CaballeroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A116CAA62989D7F500CBFE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A116CAE02989EE4B00CBFE92 /* hyoga-sin-armadura.jpeg in Resources */,
+				A116CAB82989D82700CBFE92 /* LaunchScreen.storyboard in Resources */,
+				A116CAD02989E10D00CBFE92 /* mu.jpeg in Resources */,
+				A116CAB52989D82700CBFE92 /* Assets.xcassets in Resources */,
+				A116CAB32989D7F600CBFE92 /* Main.storyboard in Resources */,
+				A116CAE42989EEC600CBFE92 /* camus.jpeg in Resources */,
+				A116CAD82989E80300CBFE92 /* mu-sin-armadura.jpeg in Resources */,
+				A116CADC2989EDA600CBFE92 /* seiya.jpeg in Resources */,
+				A116CADF2989EE4B00CBFE92 /* hyoga.jpeg in Resources */,
+				A116CADB2989EDA600CBFE92 /* seiya-sin-armadura.jpeg in Resources */,
+				A116CAE32989EEC600CBFE92 /* camus-sin-armadura.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A116CABC2989D82700CBFE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A116CAA42989D7F500CBFE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A116CAB02989D7F500CBFE92 /* ViewController.swift in Sources */,
+				A116CAAC2989D7F500CBFE92 /* AppDelegate.swift in Sources */,
+				A116CAAE2989D7F500CBFE92 /* SceneDelegate.swift in Sources */,
+				A116CACE2989D8E100CBFE92 /* caballero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A116CABA2989D82700CBFE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A116CAC32989D82700CBFE92 /* CaballeroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A116CAC02989D82700CBFE92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A116CAA72989D7F500CBFE92 /* Caballero */;
+			targetProxy = A116CABF2989D82700CBFE92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A116CAB12989D7F600CBFE92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A116CAB22989D7F600CBFE92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A116CAB62989D82700CBFE92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A116CAB72989D82700CBFE92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A116CAC52989D82800CBFE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A116CAC62989D82800CBFE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A116CAC82989D82800CBFE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Caballero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.Caballero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A116CAC92989D82800CBFE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Caballero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.Caballero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A116CACB2989D82800CBFE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CaballeroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.CaballeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caballero.app/Caballero";
+			};
+			name = Debug;
+		};
+		A116CACC2989D82800CBFE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CaballeroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.CaballeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caballero.app/Caballero";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A116CAA32989D7F500CBFE92 /* Build configuration list for PBXProject "Caballero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A116CAC52989D82800CBFE92 /* Debug */,
+				A116CAC62989D82800CBFE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A116CAC72989D82800CBFE92 /* Build configuration list for PBXNativeTarget "Caballero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A116CAC82989D82800CBFE92 /* Debug */,
+				A116CAC92989D82800CBFE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A116CACA2989D82800CBFE92 /* Build configuration list for PBXNativeTarget "CaballeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A116CACB2989D82800CBFE92 /* Debug */,
+				A116CACC2989D82800CBFE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A116CAA02989D7F500CBFE92 /* Project object */;
+}
